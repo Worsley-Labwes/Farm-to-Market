@@ -1,6 +1,6 @@
-# Little Steps — Teacher Space
+# HarvestLoop — Farm to Market
 
-A warm, responsive classroom dashboard for keeping student progress, attendance, and everyday wins in view. The sample roster is intentionally local demo data; newly added students live in the current browser session and are not sent to a server.
+HarvestLoop is a smallholder-focused agribusiness concept: instead of asking every grower to find a large buyer alone, it makes local demand visible and lets compatible harvest lots be pooled into one buyer order. The goal is to make selling together easier and help fresh produce find a market before it loses value.
 
 ## Get started
 
@@ -9,13 +9,15 @@ npm install
 npm run dev
 ```
 
-## Classroom tools
+## Explore the demo
 
-- Search students by name or email and filter by progress status.
-- Add a student with a name, email address, and grade.
-- Export the currently visible roster as a CSV file.
-- Explore the overview, student roster, attendance, and classroom insights.
-- Use the sidebar on desktop or the menu button on smaller screens.
+- **Overview:** see listed produce, indicative asking value, and buyer orders that the sample co-op can fill.
+- **Harvest lots:** search and filter the sample market, list a harvest, and export the visible listings as CSV.
+- **Buyer board:** compare crop, grade, volume, offer, and pickup location. Pool compatible lots to match a buyer order.
+- **Collections:** see which growers contributed to each matched order, or release a match to return its lots to the market.
+- Changes to harvest lots and matches are saved in this browser only. The buyer requests, farms, quantities, and prices are sample data—not live market quotes or real orders.
+
+The sample uses Kenyan shillings (KSh) and example Nakuru-area locations. Adapt the currency, locations, grades, crops, buyer verification, and transport arrangements before using the concept for a real market.
 
 ## Checks
 
